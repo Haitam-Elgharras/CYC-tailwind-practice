@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useState } from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -40,7 +40,7 @@ const App = () => {
                 <FontAwesomeIcon className='ml-2' icon={faArrowRight} size='xs'/>
             </div>
             </div>
-            <img src="/images/img.jpg" alt="" className="w-full h-full object-cover" />
+            <img src="/images/img.webp" alt="" className="w-full h-full object-cover" />
         </div>
     </div>
     </>
